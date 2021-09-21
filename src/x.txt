@@ -1,0 +1,13 @@
+Page 
+api 1
+const api1 = [{abs:12, ord:12},{abs:12, ord:12},{abs:12, ord:12}]
+api 2
+const api2 = [{x1:12, y1:12}]
+<barchart data={api1ConvertForBarchart} />
+<barchart data={api2ConvertForBarchart} />
+
+// api1ConvertForBarchart : [{x: number , y : number}]
+
+
+composant chart 
+props : [{x: number , y : number}]
